@@ -21,7 +21,7 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|
-| ~ 24. 09. 18. [수] | SWEA | [홍준이의 사전놀이_3135](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6pTXqsXUDFAWS#none) <br> [최적 경로_1247](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) <br> [균형점_1245](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15MeBKAOgCFAYD) <br> [암호코드 스캔 1242](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15JEKKAM8CFAYD)| ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | ▶️ <br> ✅ <br> ✅ <br> ▶️ | ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | 
+| ~ 24. 09. 18. [수] | SWEA | [홍준이의 사전놀이_3135](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6pTXqsXUDFAWS#none) <br> [최적 경로_1247](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) <br> [균형점_1245](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15MeBKAOgCFAYD) <br> [암호코드 스캔 1242](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15JEKKAM8CFAYD)| ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | ✅ <br> ✅ <br> ✅ <br> ✅ | ▶️ <br> ▶️ <br> ▶️ <br> ▶️ | 
 
 
 
