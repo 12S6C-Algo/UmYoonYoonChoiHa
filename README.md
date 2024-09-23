@@ -15,9 +15,12 @@
   - -> 문제이름 + 문제번호로 아래 표 기재
 
 ## Member
-|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 하정수 |
-|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|
-| ~ 24. 09. 06. [금] | SWEA | [숫자 만들기_4008](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) <br> [점심 식사시간_2383](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) <br> [미생물 격리_2382](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl)| ✅ <br> ✅ <br> ✅ | ✅ <br> ❌ <br> ❌ | ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ |
+
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 24. 09. 23. [월] | SWEA | [범준이의 제주도 여행 계획_1798](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV4x9oyaCR8DFAUx&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3) <br> [달란트2_1265](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV18R8FKIvoCFAZN&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3) <br> [금속막대_1259](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV18NaZqIt8CFAZN&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3)| 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 
+
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|
@@ -26,8 +29,13 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|
-| ~ 24. 09. 23. [월] | SWEA | [범준이의 제주도 여행 계획_1798](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV4x9oyaCR8DFAUx&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3) <br> [달란트2_1265](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV18R8FKIvoCFAZN&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3) <br> [금속막대_1259](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZEccfEKsCsDFAQW&contestProbId=AV18NaZqIt8CFAZN&probBoxId=AZIDo7P6m0QDFAQP&type=PROBLEM&problemBoxTitle=24%EB%85%84+9%EC%9B%94+23%EC%9D%BC+%EC%9B%94&problemBoxCnt=3)| 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 👥 <br> ▶️ <br> ▶️ | 
+| ~ 24. 09. 06. [금] | SWEA | [숫자 만들기_4008](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) <br> [점심 식사시간_2383](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) <br> [미생물 격리_2382](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl)| ✅ <br> ✅ <br> ✅ | ✅ <br> ❌ <br> ❌ | ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ |
 
+<!-- 양식
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 24. 09. 23. [월] | SWEA | []() <br> []() <br> []() | 엄윤준 <br> 엄윤준 <br> 엄윤준 | 윤병희 <br> 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 <br> 윤정석 | 최수용 <br> 최수용 <br> 최수용 | 하정수 <br> 하정수 <br> 하정수 | 
+ --> 
 
 <!-- 양식 | ~ 24. 08. 28. [수] 1 | BaekJoon | [문제](https://www.acmicpc.net/problem/번호) | 엄윤준 | 윤병희 | 윤정석 | 하정수 | --> 
 
