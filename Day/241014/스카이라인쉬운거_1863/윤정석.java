@@ -39,10 +39,9 @@ public class B_1863 {
 		int cnt = 0;
 		for (int f = highFloor; f > 0; f--) {
 			
-			int idx = 0;
-			
 			if(indices.get(f) == null) continue;
-				
+
+			int idx = 0;
 			int size = indices.get(f).size();
 			int left = indices.get(f).get(idx++) + 1;
 			
