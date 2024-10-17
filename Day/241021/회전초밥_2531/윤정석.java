@@ -33,49 +33,35 @@ public class B_2531 {
 		
 		if(isCouponDish) {
 			for (int i = left; i < right; i++) {
-				cumul[dishes[i]]++;
-				if(cumul[dishes[i]] == 1) cnt++;
+				if(++cumul[dishes[i]] == 1) cnt++;
 			}
-			if(cumul[c] == 0) result = Math.max(result, cnt + 1);
-			else result = Math.max(result, cnt);
+			result = cumul[c] == 0 ? Math.max(result, cnt + 1) : Math.max(result, cnt);
 			
 			while(true) {
-				if(cumul[dishes[left]] == 1) cnt--;
-				cumul[dishes[left]]--;
+				if(cumul[dishes[left]]-- == 1) cnt--;
+				if(++cumul[dishes[right]] == 1) cnt++;
 				
-				cumul[dishes[right]]++;
-				if(cumul[dishes[right]] == 1) cnt++;
+				result = cumul[c] == 0 ? Math.max(result, cnt + 1) : Math.max(result, cnt); 
 				
-				if(cumul[c] == 0) result = Math.max(result, cnt + 1);
-				else result = Math.max(result, cnt);
-				
-				left++;
-				if(left == N) break;
-				right++;
-				if(right >= N) right %= N;
+				if(++left == N) break;
+				if(++right >= N) right %= N;
 			}
 		} else {
 			cnt = 1;
 			
 			for (int i = left; i < right; i++) {
-				cumul[dishes[i]]++;
-				if(cumul[dishes[i]] == 1) cnt++;
+				if(++cumul[dishes[i]] == 1) cnt++;
 			}
 			result = Math.max(result, cnt);
 			
 			while(true) {
-				if(cumul[dishes[left]] == 1) cnt--;
-				cumul[dishes[left]]--;
-				
-				cumul[dishes[right]]++;
-				if(cumul[dishes[right]] == 1) cnt++;
+				if(cumul[dishes[left]]-- == 1) cnt--;
+				if(++cumul[dishes[right]] == 1) cnt++;
 				
 				result = Math.max(result, cnt);
 				
-				left++;
-				if(left == N) break;
-				right++;
-				if(right >= N) right %= N;
+				if(++left == N) break;
+				if(++right >= N) right %= N;
 			}
 		}
 		
