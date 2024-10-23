@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class Main {
-
+	// 부리부리부리부리
 	static char[] str;
 	static int[] arr;
 	public static void main(String[] args) throws IOException {
