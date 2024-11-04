@@ -40,10 +40,20 @@
 | ~ 24. 00. 00. [월] | SWEA[Live풀이] | [오! 나의 여신님_7793](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWsBQpPqMNMDFARG) | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 -->
 
+<!-- |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 24. 00. 00. [월] | BAEKJOON | []() <br> [1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+|   24. 00. 00. [월]  | Programmers[LIVE] | []()                                        |         엄윤준         |       윤병희       |     윤정석     |     최수용     |     하정수     |
+-->
+
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 11. 04. [월] | BAEKJOON | [공유기 설치](https://www.acmicpc.net/problem/2110) <br> [1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
-|   24. 11. 04. [월]  | Programmers[LIVE] | []()                                        |         엄윤준         |       윤병희       |     윤정석     |     최수용     |     하정수     |
+| ~ 24. 11. 07. [목] | BAEKJOON | [문자열 폭발](https://www.acmicpc.net/problem/9935) <br> [A와 B 2](https://www.acmicpc.net/problem/9935)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 24. 11. 04. [월] | BAEKJOON | [공유기 설치](https://www.acmicpc.net/problem/2110) <br> [1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)  | ✅ <br> ✅  | ❌ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+|   24. 11. 04. [월]  | Programmers[LIVE] | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212)                                        |         ✅         |       ❌       |     ✅     |     ✅     |     ✅     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
