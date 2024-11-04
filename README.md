@@ -53,7 +53,7 @@
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
 | ~ 24. 11. 04. [월] | BAEKJOON | [공유기 설치](https://www.acmicpc.net/problem/2110) <br> [1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)  | ✅ <br> ✅  | ❌ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
-|   24. 11. 04. [월]  | Programmers[LIVE] | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212)                                        |         ✅         |       ❌       |     ✅     |     ✅     |     ✅     |
+|   24. 11. 04. [월]  | Programmers[LIVE] | [Lv2\_퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212)                                        |         ✅         |       ❌       |     ✅     |     ✅     |     ✅     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
