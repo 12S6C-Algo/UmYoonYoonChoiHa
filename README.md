@@ -49,7 +49,7 @@
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
 | ~ 24. 11. 11. [월] | BAEKJOON | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) <br> [List of Unique Numbers](https://www.acmicpc.net/problem/13144)  | ❌ <br> ✅  | ❌ <br> ❌ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
-|   24. 11. 11. [월]  | Programmers[LIVE] | [lv2\ 문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057#)                                        |         엄윤준         |       윤병희       |     윤정석     |     최수용     |     하정수     |
+|   24. 11. 11. [월]  | Programmers[LIVE] | [lv2\_문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057#)                                        |         엄윤준         |       윤병희       |     윤정석     |     최수용     |     하정수     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
