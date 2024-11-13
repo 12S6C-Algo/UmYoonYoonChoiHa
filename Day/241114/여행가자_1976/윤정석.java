@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B_1976 {
+public class B_1976_p1 {
 	
 	static int[] root;
 
@@ -17,7 +17,7 @@ public class B_1976 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		int M = Integer.parseInt(br.readLine());
-				
+		
 		root = new int[N + 1];
 		for (int i = 1; i < N + 1; i++) {
 			root[i] = i;
@@ -34,16 +34,17 @@ public class B_1976 {
 		}
 		
 		st = new StringTokenizer(br.readLine());
-		int firstLoc = find(Integer.parseInt(st.nextToken()));
-		for (int i = 1; i < M; i++) {
-			int nextLoc = Integer.parseInt(st.nextToken());
-			if(find(nextLoc) != firstLoc) {
+		int firstLocRoot = find(Integer.parseInt(st.nextToken()));
+		
+		for (int i = 0; i < M - 1; i++) {
+			if(find(Integer.parseInt(st.nextToken())) != firstLocRoot) {
 				System.out.println("NO");
 				return;
 			}
 		}
 		
 		System.out.println("YES");
+		
 	}
 	
 	static int find(int x) {
@@ -56,4 +57,5 @@ public class B_1976 {
 		y = find(y);
 		root[y] = x;
 	}
+
 }
