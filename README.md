@@ -48,20 +48,25 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 11. 14. [목] | BAEKJOON | [슴바꼭질3](https://www.acmicpc.net/group/practice/view/22068/6) <br> [여행가자](https://www.acmicpc.net/problem/1976)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+| ~ 24. 11. 18. [월] | BAEKJOON | [뱀과 사다리 게임\_16928](https://www.acmicpc.net/problem/16928) <br> [고층건물\_1027](https://www.acmicpc.net/problem/1027)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+|   24. 11. 18. [월]  | Programmers[LIVE] | []()                                        |         엄윤준         |       윤병희       |     윤정석     |     최수용     |     하정수     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 11. 11. [월] | BAEKJOON | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) <br> [List of Unique Numbers](https://www.acmicpc.net/problem/13144)  | ❌ <br> ✅  | ❌ <br> ❌ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+| ~ 24. 11. 14. [목] | BAEKJOON | [숨바꼭질3\_13549](https://www.acmicpc.net/group/practice/view/22068/6) <br> [여행가자\_1976](https://www.acmicpc.net/problem/1976)  | ❌ <br> ✅  | ✅ <br> ❌ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 24. 11. 11. [월] | BAEKJOON | [컨베이어 벨트 위의 로봇\_20055](https://www.acmicpc.net/problem/20055) <br> [List of Unique Numbers\_13144](https://www.acmicpc.net/problem/13144)  | ❌ <br> ✅  | ❌ <br> ❌ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
 |   24. 11. 11. [월]  | Programmers[LIVE] | [Lv2\_문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057#)                                        |         ✅         |       ✅       |     ✅     |     ❌     |     ✅     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 11. 07. [목] | BAEKJOON | [문자열 폭발](https://www.acmicpc.net/problem/9935) <br> [A와 B 2](https://www.acmicpc.net/problem/9935)  | ✅ <br> ✅  | ✅ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+| ~ 24. 11. 07. [목] | BAEKJOON | [문자열 폭발\_9935](https://www.acmicpc.net/problem/9935) <br> [A와 B 2\_12919](https://www.acmicpc.net/problem/9935)  | ✅ <br> ✅  | ✅ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 11. 04. [월] | BAEKJOON | [공유기 설치](https://www.acmicpc.net/problem/2110) <br> [1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)  | ✅ <br> ✅  | ❌ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+| ~ 24. 11. 04. [월] | BAEKJOON | [공유기 설치\_2110](https://www.acmicpc.net/problem/2110) <br> [1, 2, 3 더하기 4\_15989](https://www.acmicpc.net/problem/15989)  | ✅ <br> ✅  | ❌ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
 |   24. 11. 04. [월]  | Programmers[LIVE] | [Lv2\_퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212)                                        |         ✅         |       ❌       |     ✅     |     ✅     |     ✅     |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
