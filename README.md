@@ -48,7 +48,7 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 24. 12. 06. [금] | BAEKJOON | [탑\_2493](https://www.acmicpc.net/problem/2493) <br> [줄세우기\_2631](https://www.acmicpc.net/problem/2631) | 엄윤준 <br> 엄윤준 | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용 <br> 최수용 | 하정수 <br> 하정수 |
+| ~ 24. 12. 06. [금] | BAEKJOON | [탑\_2493](https://www.acmicpc.net/problem/2493) <br> [줄세우기\_2631](https://www.acmicpc.net/problem/2631) | ✅ <br> 엄윤준 | ✅ <br> ❌ | ✅ <br> ✅ | ❌ <br> ❌ | ✅ <br> ✅ |
 | 24. 12. 05. [목] | [SOFTEER HSAT](https://softeer.ai/challenge/hsat/11043) | |  엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
