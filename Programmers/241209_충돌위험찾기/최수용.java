@@ -1,102 +1,91 @@
+import java.io.*;
 import java.util.*;
 
 class Solution {
 
     static class Robot {
-        int r;  
-        int c;  
-        int target_r;
-        int target_c;
-        boolean isArrived;
-        Robot(int r, int c, int target_r, int target_c) {
+        int r;
+        int c; 
+        int target;
+        boolean isArrived; 
+        int[] route; 
+        int currentIdx; 
+        
+        Robot(int r, int c, int target, int[] route) {
             this.r = r;
             this.c = c;
-            this.target_r = target_r;
-            this.target_c = target_c;
+            this.target = target;
             this.isArrived = false;
+            this.route = route;
+            this.currentIdx = 0; 
         }
-        void move() {
-            if (isArrived) return; 
-            if (r < target_r) r++;
-            else if (r > target_r) r--;
-            else if (c < target_c) c++;
-            else if (c > target_c) c--;
-            if (r == target_r && c == target_c) {
-                isArrived = true;
+        
+        void move(int[][] points) {
+            if (isArrived) return;
+
+            int[] targetPoint = points[route[currentIdx] - 1];
+            if (r < targetPoint[0]) {
+                r++;
+            } else if (r > targetPoint[0]) {
+                r--;
+            } else if (c < targetPoint[1]) {
+                c++;
+            } else if (c > targetPoint[1]) {
+                c--;
+            }
+            if (r == targetPoint[0] && c == targetPoint[1]) {
+                currentIdx++;
+                if (currentIdx >= route.length) {
+                    isArrived = true;
+                }
             }
         }
     }
-    static List<Robot> robots;
-    static Map<String, Integer> map;
+
+    static int[][] point;
+    static boolean[] isArrived;
+    static List<Robot> robotList;
+    
     public int solution(int[][] points, int[][] routes) {
         int answer = 0;
-
-        robots = new ArrayList<>();
-        for (int idx = 0; idx < routes.length; idx++) {
-            int start = routes[idx][0] - 1;
-            int end = routes[idx][1] - 1; 
-            robots.add(new Robot(points[start][0], points[start][1], points[end][0], points[end][1]));
-        }
-       
-        map = new HashMap<>();  
-     
-            // 로봇이동및현위치저장
-            for (Robot robot : robots) {
-                if (!robot.isArrived) {
-                    String position = robot.r + "," + robot.c;
-                    if (map.containsKey(position)) {
-                        map.put(position, map.get(position) + 1);
-                    } 
-                    else {
-                        map.put(position, 1);
-                    }
-                }
-            }
-            
-            // 충돌위험체크
-            for (String xy : map.keySet()) {
-                if (map.get(xy) > 1) {
-                    System.out.println(xy);
-                    answer++;  
-                }
-            }
         
-        while (true) {    
-            map = new HashMap<>();  
-     
-            // 로봇이동및현위치저장
-            for (Robot robot : robots) {
-                if (!robot.isArrived) {
-                    robot.move();
-                    String position = robot.r + "," + robot.c;
-                    if (map.containsKey(position)) {
-                        map.put(position, map.get(position) + 1);
-                    } 
-                    else {
-                        map.put(position, 1);
-                    }
-                }
-            }
-            
-            // 충돌위험체크
-            for (String xy : map.keySet()) {
-                if (map.get(xy) > 1) {
-                    System.out.println(xy);
-                    answer++;  
-                }
-            }
-            
-            // 도착여부확인
-            boolean allArrived = true;
-            for (Robot robot : robots) {
-                if (!robot.isArrived) {
-                    allArrived = false;
-                    break;
-                }
-            }
-            
-            if (allArrived) break;
+        point = new int[points.length + 1][2];
+        for (int i = 1; i < points.length + 1; i++) {
+            point[i] = points[i - 1];
         }
+
+        robotList = new ArrayList<>();
+        for (int[] num : routes) {
+            Robot robot = new Robot(points[num[0] - 1][0], points[num[0] - 1][1], num[1], num);
+            robotList.add(robot);
+        }
+        isArrived = new boolean[robotList.size()];
+        while (!isFinished()) {
+            for (Robot robot : robotList) {
+                robot.move(point);
+            }
+
+            Map<String, Integer> positionMap = new HashMap<>();
+            for (Robot robot : robotList) {
+                if (!robot.isArrived) {
+                    String position = robot.r + "," + robot.c;
+                    positionMap.put(position, positionMap.getOrDefault(position, 0) + 1);
+                }
+            }
+            for (int count : positionMap.values()) {
+                if (count > 1) {
+                    answer++;
+                }
+            }
+        }
+        
         return answer;
+    }
+
+    public static boolean isFinished() {
+        for (boolean arrived : isArrived) {
+            if (!arrived) return false;
+        }
+        return true;
     }
 }
