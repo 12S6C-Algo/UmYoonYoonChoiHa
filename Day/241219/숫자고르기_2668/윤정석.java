@@ -17,14 +17,12 @@ public class B_2668 {
         for (int i = 1; i < N + 1; i++) {
             nums[i] = Integer.parseInt(br.readLine());
         }
-
-
+        
         boolean[] cycle = new boolean[N + 1];
         for (int i = 1; i < N + 1; i++) {
             visit = new boolean[N + 1];
-
-            boolean isPass = dfs(i, i);
-            if (isPass) cycle[i] = true;
+            
+            if (isCycle(i, i)) cycle[i] = true;
         }
 
         int cnt = 0;
@@ -40,11 +38,11 @@ public class B_2668 {
         System.out.println(sb);
     }
 
-    static boolean dfs(int start, int cur) {
+    static boolean isCycle(int start, int cur) {
         if (visit[cur]) return false;
         visit[cur] = true;
 
         if (nums[cur] == start) return true;
-        else return dfs(start, nums[cur]);
+        else return isCycle(start, nums[cur]);
     }
 }
