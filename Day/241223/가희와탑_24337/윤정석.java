@@ -1,11 +1,13 @@
 // 24.12.22 Sun
 package problems;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class B_24337 {
+
+    static StringBuilder sb;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -18,18 +20,14 @@ public class B_24337 {
             return;
         }
 
-        StringBuilder sb = new StringBuilder();
+        sb = new StringBuilder();
 
-        int repeat = N - (a + b) + 1;
+        int repeatRange = N - (a + b) + 1;
         if (a == 1) {
-            sb.append(Math.max(a, b)).append(" ");
-            for (int i = 0; i < repeat; i++) {
-                sb.append(1).append(" ");
-            }
+            sb.append(b).append(" ");
+            fillBlank(repeatRange);
         } else {
-            for (int i = 0; i < repeat; i++) {
-                sb.append(1).append(" ");
-            }
+            fillBlank(repeatRange);
             for (int i = 1; i < a; i++) {
                 sb.append(i).append(" ");
             }
@@ -41,5 +39,11 @@ public class B_24337 {
         }
 
         System.out.println(sb);
+    }
+
+    static void fillBlank(int repeatRange) {
+        for (int i = 0; i < repeatRange; i++) {
+            sb.append(1).append(" ");
+        }
     }
 }
