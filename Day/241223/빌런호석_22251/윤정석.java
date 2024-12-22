@@ -28,7 +28,7 @@ public class B_22251 {
         }
 
         cntOfInversion = new int[10][10];
-        makeConvert();
+        makeInversion();
 
         cntOfInversionByDigit = new ArrayList[K];
         for (int i = 0; i < K; i++) {
@@ -77,7 +77,7 @@ public class B_22251 {
         sb.delete(sb.length() - 1, sb.length());
     }
 
-    static void makeConvert() {
+    static void makeInversion() {
         cntOfInversion[0][1] = cntOfInversion[1][0] = 4;
         cntOfInversion[0][2] = cntOfInversion[2][0] = 3;
         cntOfInversion[0][3] = cntOfInversion[3][0] = 3;
