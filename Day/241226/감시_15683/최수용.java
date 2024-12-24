@@ -12,19 +12,12 @@ public class Main {
 	static int[] dc = { 0, 1, 0, -1 };
 
 	static List<CCTV> list;
-
 	static class CCTV {
 		int r, c, type, dir;
-
 		CCTV(int r, int c, int type) {
 			this.r = r;
 			this.c = c;
 			this.type = type;
-		}
-
-		@Override
-		public String toString() {
-			return "CCTV [r=" + r + ", c=" + c + ", type=" + type + ", dir=" + dir + "]";
 		}
 	}
 
@@ -39,10 +32,8 @@ public class Main {
 			updateVisible();
 			return;
 		}
-
 		// 5번 경우 방향 필요 x
 		if (list.get(depth).type == 5) dfs(depth + 1);
-
 		for (int d = 0; d < 4; d++) {
 			list.get(depth).dir = d;
 			dfs(depth + 1);
@@ -61,26 +52,22 @@ public class Main {
 			if (cctv.type == 1) {
 				sum += cntVisible(cctv,0);
 			}
-
 			else if (cctv.type == 2) {
 				for (int d = 0; d < 3; d += 2) {
 					sum += cntVisible(cctv,d);
 				}
 			}
-
 			else if (cctv.type == 3) {
 				for (int d = 0; d < 2; d++) {
 					sum +=cntVisible(cctv, d);
 				}
 			}
-
 			else if (cctv.type == 4) {
 				for (int d = 0; d < 3; d++) {
 					sum +=cntVisible(cctv, d);
 
 				}
 			}
-
 			else if (cctv.type == 5) {
 				for (int d = 0; d < 4; d++) {
 					sum +=cntVisible(cctv, d);
