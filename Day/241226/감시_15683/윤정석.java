@@ -7,7 +7,7 @@ import java.util.*;
 
 public class B_15683 {
 
-    static int N, M;
+    static int N, M, cctvNo;
     static int[][] map;
     static List<int[]> cctvs;
     static int[] dr = {-1, 1, 0, 0};
@@ -32,13 +32,14 @@ public class B_15683 {
             }
         }
 
+        cctvNo = cctvs.size();
         answer = 65;
         dfs(0);
         System.out.println(answer);
     }
 
     static void dfs(int depth) {
-        if (depth == cctvs.size()) {
+        if (depth == cctvNo) {
             int blindSpot = 0;
             for (int r = 0; r < N; r++) {
                 for (int c = 0; c < M; c++) {
@@ -53,14 +54,14 @@ public class B_15683 {
         }
 
         int[] cur = cctvs.get(depth);
-        int[] rMap = new int[N];
-        int[] cMap = new int[M];
+        int[] rCopyMap = new int[N];
+        int[] cCopyMap = new int[M];
 
         for (int r = 0; r < N; r++) {
-            rMap[r] = map[r][cur[1]];
+            rCopyMap[r] = map[r][cur[1]];
         }
         for (int c = 0; c < M; c++) {
-            cMap[c] = map[cur[0]][c];
+            cCopyMap[c] = map[cur[0]][c];
         }
 
         if (cur[2] == 1) {
@@ -68,9 +69,9 @@ public class B_15683 {
                 int nr = cur[0] + dr[d];
                 int nc = cur[1] + dc[d];
                 fillMap(nr, nc, d);
-
+                
                 dfs(depth + 1);
-                restoreMap(cur[0], cur[1], rMap, cMap);
+                restoreMap(cur[0], cur[1], rCopyMap, cCopyMap);
             }
         } else if (cur[2] == 2) {
             int d = 0;
@@ -84,7 +85,7 @@ public class B_15683 {
                 fillMap(nr, nc, d++);
 
                 dfs(depth + 1);
-                restoreMap(cur[0], cur[1], rMap, cMap);
+                restoreMap(cur[0], cur[1], rCopyMap, cCopyMap);
             }
         } else if (cur[2] == 3) {
             int[][] dir = {{0, 3}, {2, 0}, {1, 2}, {3, 1}};
@@ -99,7 +100,7 @@ public class B_15683 {
                 fillMap(nr, nc, dir[d][1]);
 
                 dfs(depth + 1);
-                restoreMap(cur[0], cur[1], rMap, cMap);
+                restoreMap(cur[0], cur[1], rCopyMap, cCopyMap);
             }
         } else if (cur[2] == 4) {
             int[][] dir = {{2, 0, 3}, {1, 2, 0}, {3, 1, 2}, {0, 3, 1}};
@@ -118,7 +119,7 @@ public class B_15683 {
                 fillMap(nr, nc, dir[d][2]);
 
                 dfs(depth + 1);
-                restoreMap(cur[0], cur[1], rMap, cMap);
+                restoreMap(cur[0], cur[1], rCopyMap, cCopyMap);
             }
         } else if (cur[2] == 5) {
             for (int d = 0; d < 4; d++) {
@@ -128,7 +129,7 @@ public class B_15683 {
             }
 
             dfs(depth + 1);
-            restoreMap(cur[0], cur[1], rMap, cMap);
+            restoreMap(cur[0], cur[1], rCopyMap, cCopyMap);
         }
     }
 
@@ -141,12 +142,12 @@ public class B_15683 {
         }
     }
 
-    static void restoreMap(int curR, int curC, int[] rMap, int[] cMap) {
+    static void restoreMap(int curR, int curC, int[] rCopyMap, int[] cCopyMap) {
         for (int r = 0; r < N; r++) {
-            map[r][curC] = rMap[r];
+            map[r][curC] = rCopyMap[r];
         }
         for (int c = 0; c < M; c++) {
-            map[curR][c] = cMap[c];
+            map[curR][c] = cCopyMap[c];
         }
     }
 }
