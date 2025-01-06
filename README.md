@@ -54,7 +54,7 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 01. 03. [금] | BAEKJOON | [동전분배\_1943](https://www.acmicpc.net/problem/1943) <br> [1의 개수 세기\_9527](https://www.acmicpc.net/problem/9527) <br> [성냥개브\_3687](https://www.acmicpc.net/problem/3687) <br> [로봇 조종하기\_2169](https://www.acmicpc.net/problem/2169) | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ <br> ❌ | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅  <br> ✅ <br> ✅ |
+| ~ 25. 01. 03. [금] | BAEKJOON | [동전분배\_1943](https://www.acmicpc.net/problem/1943) <br> [1의 개수 세기\_9527](https://www.acmicpc.net/problem/9527) <br> [성냥개비\_3687](https://www.acmicpc.net/problem/3687) <br> [로봇 조종하기\_2169](https://www.acmicpc.net/problem/2169) | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ <br> ❌ | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅ <br> ✅  <br> ✅ <br> ✅ |
 |   25. 01. 03. [금]  | Programmers[LIVE] | []()  | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
