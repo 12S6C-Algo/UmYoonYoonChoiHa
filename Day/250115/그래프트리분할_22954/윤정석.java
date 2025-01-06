@@ -1,12 +1,8 @@
 // 25.01.07 Tue
 
 /*
-그래프는 dfs로 찾기
-1. 2개 이하의 노드 -> 불가
-2. 3개 이상의 그래프 -> 불가
-3-1. 2개의 그래프 -> 크기가 같은 경우 -> 불가
-3-2. 2개의 그래프 -> 크기가 다른 경우 -> 가능
-4. 1개의 그래프 -> 가능 : 말단 노드만 분리
+- 그래프 1개: unionCnt = N - 1
+- 그래프 2개: unionCnt = N - 2
  */
 
 package problems;
@@ -14,12 +10,9 @@ package problems;
 import java.io.*;
 import java.util.*;
 
-public class B_22954 {
+public class B_22954_1 {
 
-    static List<int[]>[] graph;
-    static boolean[] visit;
-    static List<Integer> nodes;
-    static List<Integer> edges;
+    static int[] root;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,101 +22,83 @@ public class B_22954 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        // 1. 2개 이하의 노드 -> 불가
-        if (N <= 2) {
+        List<Integer>[] edges = new ArrayList[N + 1];
+        root = new int[N + 1];
+        for (int n = 1; n < N + 1; n++) {
+            edges[n] = new ArrayList<>();
+            root[n] = n;
+        }
+
+        int unionCnt = 0;
+        for (int m = 1; m < M + 1; m++) {
+            st = new StringTokenizer(br.readLine());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            if (unionCnt < N - 2) {
+                if (find(u) != find(v)) {
+                    union(u, v);
+                    unionCnt++;
+                    edges[u].add(m);
+                }
+            }
+        }
+
+        if (unionCnt != N - 2) {
             System.out.println(-1);
             return;
         }
 
-        graph = new ArrayList[N + 1];
-        for (int i = 1; i < N + 1; i++) {
-            graph[i] = new ArrayList<>();
+        int cnt1 = 0;
+        StringBuilder graph1 = new StringBuilder();
+        StringBuilder edge1 = new StringBuilder();
+        int cnt2 = 0;
+        StringBuilder graph2 = new StringBuilder();
+        StringBuilder edge2 = new StringBuilder();
+
+        int root1 = find(1);
+        cnt1++;
+        graph1.append(1).append(" ");
+        for (int edge : edges[1]) {
+            edge1.append(edge).append(" ");
         }
 
-        for (int i = 1; i < M + 1; i++) {
-            st = new StringTokenizer(br.readLine());
-            int from = Integer.parseInt(st.nextToken());
-            int to = Integer.parseInt(st.nextToken());
-            graph[from].add(new int[] {to, i});
-            graph[to].add(new int[] {from, i});
-        }
-
-        int dfsCnt = 0;
-        visit = new boolean[N + 1];
-        for (int from = 1; from < N + 1; from++) {
-            if (visit[from]) continue;
-            visit[from] = true;
-
-            // 2. 3개 이상의 그래프 -> 불가
-            if (dfsCnt == 2) {
-                System.out.println(-1);
-                return;
-            }
-
-            nodes = new ArrayList<>();
-            edges = new ArrayList<>();
-            nodes.add(from);
-            dfs(from);
-            dfsCnt++;
-
-            // 4. 1개의 그래프 -> 가능 : 말단 노드만 분리
-            if (edges.size() == N - 1) {
-                sb.append(N - 1).append(" ").append(1).append("\n");
-
-                for (int i = 0; i < nodes.size() - 1; i++) {
-                    sb.append(nodes.get(i)).append(" ");
+        for (int n = 2; n < N + 1; n++) {
+            if (find(n) == root1) {
+                cnt1++;
+                graph1.append(n).append(" ");
+                for (int edge : edges[n]) {
+                    edge1.append(edge).append(" ");
                 }
-                sb.append("\n");
-
-                for (int i = 0; i < edges.size() - 1; i++) {
-                    sb.append(edges.get(i)).append(" ");
+            } else {
+                cnt2++;
+                graph2.append(n).append(" ");
+                for (int edge : edges[n]) {
+                    edge2.append(edge).append(" ");
                 }
-                sb.append("\n");
-
-                sb.append(nodes.get(nodes.size() - 1));
-                System.out.println(sb);
-                return;
-            }
-
-            if (dfsCnt == 1) {
-
-                // 3-1. 2개의 그래프 -> 크기가 같은 경우 -> 불가
-                if (2 * nodes.size() == N) {
-                    System.out.println(-1);
-                    return;
-                }
-
-                // 3-2. 2개의 그래프 -> 크기가 다른 경우 -> 가능
-                sb.append(nodes.size()).append(" ").append(N - nodes.size());
-            }
-
-            // 3-2. 2개의 그래프 -> 크기가 다른 경우 -> 가능
-            sb.append("\n");
-            for (int node : nodes) {
-                sb.append(node).append(" ");
-            }
-
-            sb.append("\n");
-            for (int edge : edges) {
-                sb.append(edge).append(" ");
             }
         }
 
-        System.out.println(sb);
+        if (cnt1 == cnt2) {
+            System.out.println(-1);
+            return;
+        }
+
+        sb.append(cnt1).append(" ").append(cnt2).append("\n")
+                .append(graph1).append("\n")
+                .append(edge1).append("\n")
+                .append(graph2).append("\n")
+                .append(edge2);
+        System.out.print(sb);
     }
 
-    static void dfs(int from) {
-        for (int[] cur : graph[from]) {
-            int to = cur[0];
-            int edge = cur[1];
+    static int find(int x) {
+        if (root[x] == x) return x;
+        return root[x] = find(root[x]);
+    }
 
-            if (visit[to]) continue;
-            visit[to] = true;
-
-            nodes.add(to);
-            edges.add(edge);
-
-            dfs(to);
-        }
+    static void union(int x, int y) {
+        x = find(x);
+        y = find(y);
+        root[y] = x;
     }
 }
