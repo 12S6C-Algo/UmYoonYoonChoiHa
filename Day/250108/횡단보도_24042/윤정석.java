@@ -35,25 +35,24 @@ public class B_24042 {
 
         while (!pq.isEmpty()) {
             long[] cur = pq.poll();
+            int from = (int) cur[0]; 
 
-            if (visit[(int) cur[0]]) continue;
-            visit[(int) cur[0]] = true;
+            if (visit[from]) continue;
+            visit[from] = true;
 
             if (cur[0] == N) {
                 System.out.println(cur[1]);
                 return;
             }
 
-            for (long[] next : graph[(int) cur[0]]) {
-                if (visit[(int) next[0]]) continue;
+            for (long[] next : graph[from]) {
+                int to = (int) next[0];
+                if (visit[to]) continue;
 
                 if (next[1] < cur[1]) {
                     long freq = (cur[1] - next[1]) / M + 1;
                     next[1] += freq * M;
                 }
-//                while (next[1] < cur[1]) {
-//                    next[1] += M;
-//                }
 
                 pq.offer(new long[] {next[0], next[1]});
             }
