@@ -49,8 +49,13 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 02. 01. [토] | BAEKJOON | [곱셈\_1629](https://www.acmicpc.net/problem/1629) <br> [트리의지름\_1967](https://www.acmicpc.net/problem/1967) <br> [스티커\_9465](https://www.acmicpc.net/problem/9465) <br> [웜홀\_1865](https://www.acmicpc.net/problem/1865)  | 엄윤준 <br> 엄윤준 <br> 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 <br> 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 <br> 윤정석 <br> 윤정석 | 최수용  <br> 최수용 <br> 최수용 <br> 최수용 | 하정수 <br> 하정수 <br> 하정수 <br> 하정수 | 
-|   25. 02. 01. [토]  | Programmers[LIVE] | [Lv2_미로탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)  | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+| ~ 25. 02. 04. [화] | BAEKJOON | [색종이만들기\_2630](https://www.acmicpc.net/problem/2630) <br> [팰린드롬만들기\_1254](https://www.acmicpc.net/problem/1254)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+|   25. 02. 04. [화]  | Programmers[LIVE] | []()  | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 25. 02. 01. [토] | BAEKJOON | [곱셈\_1629](https://www.acmicpc.net/problem/1629) <br> [트리의지름\_1967](https://www.acmicpc.net/problem/1967) <br> [스티커\_9465](https://www.acmicpc.net/problem/9465) <br> [웜홀\_1865](https://www.acmicpc.net/problem/1865)  | ✅ <br> ✅ <br> ✅ <br> ✅  | ✅ <br> ❌ <br> ❌ <br> ❌ | ✅ <br> ✅ <br> ✅ <br> ✅ | ✅  <br> ✅ <br> ✅ <br> ❌ | ✅ <br> ✅ <br> ✅ <br> ✅ | 
+|   25. 02. 01. [토]  | Programmers[LIVE] | [Lv2_미로탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)  | ✅ | ❌ | ✅ | ✅ | ✅ |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
