@@ -54,6 +54,10 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 25. 01. 23. [목] | BAEKJOON | [구간합구하기5\_11660](https://www.acmicpc.net/problem/11660) <br> [최단경로\_1753](https://www.acmicpc.net/problem/1753)  | ❌ <br> ❌ | ❌ <br> ❌ | ❌ <br> ❌ | ❌ <br> ❌ | ✅ <br> ✅ | 
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
 | ~ 25. 01. 20. [월] | BAEKJOON | [가장 긴 증가하는 부분 수열\_11053](https://www.acmicpc.net/problem/11053) <br> [트리의 부모 찾기\_11725](https://www.acmicpc.net/problem/11725)  | ✅ <br> ✅  | ✅ <br> ✅ | ❌ <br> ❌ | ✅  <br> ✅ | ✅ <br> ✅ | 
 |   25. 01. 20. [월]  | Programmers[LIVE] | [Lv2_숫자변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)  | ✅ | ✅ | ❌ | ✅ | ✅ |
 
