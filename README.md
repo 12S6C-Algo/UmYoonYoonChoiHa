@@ -49,13 +49,18 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 01. 20. [월] | BAEKJOON | [가장 긴 증가하는 부분 수열\_11053](https://www.acmicpc.net/problem/11053) <br> [트리의 부모 찾기\_11725](https://www.acmicpc.net/problem/11725)  | ✅ <br> ✅  | ✅ <br> ✅ | 윤정석 <br> 윤정석 | ✅  <br> ✅ | ✅ <br> ✅ | 
-|   25. 01. 20. [월]  | Programmers[LIVE] | []()  | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+| ~ 25. 02. 01. [토] | BAEKJOON | [곱셈\_1629](https://www.acmicpc.net/problem/1629) <br> [트리의지름\_1967](https://www.acmicpc.net/problem/1967) <br> [스티커\_9465](https://www.acmicpc.net/problem/9465) <br> [웜홀\_1865](https://www.acmicpc.net/problem/1865)  | 엄윤준 <br> 엄윤준 <br> 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 <br> 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 <br> 윤정석 <br> 윤정석 | 최수용  <br> 최수용 <br> 최수용 <br> 최수용 | 하정수 <br> 하정수 <br> 하정수 <br> 하정수 | 
+|   25. 02. 01. [토]  | Programmers[LIVE] | [Lv2_미로탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)  | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 01. 15. [수] | BAEKJOON | [그래프트리분할\_22954](https://www.acmicpc.net/problem/22954) <br> [등산마니아\_20188](https://www.acmicpc.net/problem/20188)  | ✅ <br> 엄윤준  | 윤병희 <br> 윤병희 | ✅ <br> ✅ | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
-|   25. 01. 15. [수]  | Programmers[LIVE] | []()  | ✅ | 윤병희 | 윤정석 | ✅ | ✅ |
+| ~ 25. 01. 20. [월] | BAEKJOON | [가장 긴 증가하는 부분 수열\_11053](https://www.acmicpc.net/problem/11053) <br> [트리의 부모 찾기\_11725](https://www.acmicpc.net/problem/11725)  | ✅ <br> ✅  | ✅ <br> ✅ | ❌ <br> ❌ | ✅  <br> ✅ | ✅ <br> ✅ | 
+|   25. 01. 20. [월]  | Programmers[LIVE] | [Lv2_숫자변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)  | ✅ | ✅ | ❌ | ✅ | ✅ |
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 25. 01. 15. [수] | BAEKJOON | [그래프트리분할\_22954](https://www.acmicpc.net/problem/22954) <br> [등산마니아\_20188](https://www.acmicpc.net/problem/20188)  | ✅ <br> ❌  | ❌ <br> ❌ | ✅ <br> ✅ | ❌  <br> ❌ | ❌ <br> ❌ | 
+|   25. 01. 15. [수]  | Programmers[LIVE] | [Lv2_땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)  | ✅ | ❌ | ❌ | ✅ | ✅ |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
