@@ -22,7 +22,7 @@ public class B_2630 {
                 colorPaper[r][c] = Integer.parseInt(st.nextToken());
             }
         }
-        
+
         white = 0;
         blue = 0;
         cutting(0, N, 0, N);
@@ -31,7 +31,6 @@ public class B_2630 {
     }
 
     static void cutting(int sr, int er, int sc, int ec) {
-        if (sr >= er || sc >= ec) return;
         if (er - sr == 1 && ec - sc == 1) {
             if (colorPaper[sr][sc] == 0) white++;
             else blue++;
