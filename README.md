@@ -49,8 +49,12 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 02. 04. [화] | BAEKJOON | [색종이만들기\_2630](https://www.acmicpc.net/problem/2630) <br> [팰린드롬만들기\_1254](https://www.acmicpc.net/problem/1254)  | ✅ <br> ✅  | ✅ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> 하정수 | 
-|   25. 02. 04. [화]  | Programmers[LIVE] | [Lv2_두큐합같게만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)  | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+| ~ 25. 02. 08. [토] | BAEKJOON | [마인크래프트\_18111](https://www.acmicpc.net/problem/18111) <br> [문자판\_2186](https://www.acmicpc.net/problem/2186)  | 엄윤준 <br> 엄윤준  | 윤병희 <br> 윤병희 | 윤정석 <br> 윤정석 | 최수용  <br> 최수용 | 하정수 <br> 하정수 | 
+
+|      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
+|:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
+| ~ 25. 02. 04. [화] | BAEKJOON | [색종이만들기\_2630](https://www.acmicpc.net/problem/2630) <br> [팰린드롬만들기\_1254](https://www.acmicpc.net/problem/1254)  | ✅ <br> ✅  | ✅ <br> ✅ | ✅ <br> ✅ | ✅  <br> ✅ | ✅ <br> ✅ | 
+|   25. 02. 04. [화]  | Programmers[LIVE] | [Lv2_두큐합같게만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)  | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
