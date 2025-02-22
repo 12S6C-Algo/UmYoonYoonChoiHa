@@ -22,16 +22,20 @@ class Solution {
         Arrays.fill(dist, INF);
         dist[1] = 0;
         
+        boolean[] visit = new boolean[N + 1];
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[1], b[1]));
         pq.offer(new int[] {1, 0});
         
         while (!pq.isEmpty()) {
             int[] cur = pq.poll();
             
+            if (visit[cur[0]]) continue;
+            visit[cur[0]] = true;
+            
             for (int[] next : graph[cur[0]]) {
                 if (dist[next[0]] > dist[cur[0]] + next[1]) {
                     dist[next[0]] = dist[cur[0]] + next[1];
-                    pq.offer(next);
+                    pq.offer(new int[] {next[0], dist[next[0]]});
                 }
             }
         }
