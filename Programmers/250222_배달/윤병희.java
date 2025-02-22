@@ -1,40 +1,43 @@
 import java.util.*;
 
 class Solution {
-    static List<List<int[]>> graph;
-    static boolean[] visited;
-    static int answer = 0;
-    
     public int solution(int N, int[][] road, int K) {
-        graph = new ArrayList<>();
-        
+        List<List<int[]>> graph = new ArrayList<>();
         for (int i = 0; i <= N; i++) {
             graph.add(new ArrayList<>());
         }
-        
+
         for (int[] r : road) {
             int a = r[0], b = r[1], c = r[2];
             graph.get(a).add(new int[]{b, c});
             graph.get(b).add(new int[]{a, c});
         }
-        
-        visited = new boolean[N + 1];
-        
-        dfs(1, 0, K);
-        
-        return answer;
-    }
 
-    private void dfs(int node, int cost, int K) {
-        if (cost > K) return; 
-        if (!visited[node]) {
-            visited[node] = true;
-            answer++;
+        int[] dist = new int[N + 1];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[1] = 0; 
+
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{1, 0}); 
+
+        while (!queue.isEmpty()) {
+            int[] cur = queue.poll();
+            int now = cur[0], nowCost = cur[1];
+
+            for (int[] next : graph.get(now)) {
+                int nextNode = next[0], nextCost = nowCost + next[1];
+
+                if (nextCost < dist[nextNode]) {
+                    dist[nextNode] = nextCost;
+                    queue.offer(new int[]{nextNode, nextCost});
+                }
+            }
         }
 
-        for (int[] next : graph.get(node)) {
-            int nextNode = next[0], nextCost = next[1];
-            dfs(nextNode, cost + nextCost, K);
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            if (dist[i] <= K) count++;
         }
+        return count;
     }
 }
