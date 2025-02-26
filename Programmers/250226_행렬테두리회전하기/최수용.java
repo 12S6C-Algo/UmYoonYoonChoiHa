@@ -37,18 +37,11 @@ class Solution {
         r1 = q[idx][0]; c1 = q[idx][1];
         r2 = q[idx][2]; c2 = q[idx][3];
         
-        // 원래 배열 값 저장
-        int origin = map[r1][c1];
-        min = Math.min(min,origin);
-        
-        // 회전 & 최솟값 갱신
-        r = r1; c = c1;             // r,c 초기화
-        nr = r+dr[d]; nc = c+dc[d]; // nr,nc 값 초기화
-    
-        map[r][c] = map[nr][nc];
+        // 초기화
+        r = r1; c = c1;    
+        int origin = map[r][c];
         min = Math.min (min, map[r][c]);
-        r = nr; c = nc;
-      
+        
         while(true){
             nr = r+dr[d]; nc = c+dc[d];
             
@@ -58,7 +51,7 @@ class Solution {
                 return min;
             }
             
-            // 범위 내에 있는 지 체크, 없으면 nr,nc 갖다버리고 d추가
+            // 범위 내에 있는 지 체크, 없으면 nr,nc 가져다버리고 d추가
             if(nr < r1 || nc < c1 || nr > r2 || nc > c2){
                 d++;
                 continue;
