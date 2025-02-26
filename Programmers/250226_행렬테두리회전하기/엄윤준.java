@@ -30,29 +30,27 @@ class Solution {
         int rl = er-sr;
         int cl = ec-sc;
         
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        
         int save = map[sr][sc];
-        pq.add(save);
+        int min = save;
         for (int i = 0; i < rl; i++) {
             map[sr+i][sc] = map[sr+i+1][sc];
-            pq.add(map[sr+i][sc]);
+            min = Math.min(min, map[sr+i][sc]);
         }
         for (int i = 0; i < cl; i++) {
             map[er][sc+i] = map[er][sc+i+1];
-            pq.add(map[er][sc+i]);
+            min = Math.min(min, map[er][sc+i]);
         }
         for (int i = 0; i < rl; i++) {
             map[er-i][ec] = map[er-i-1][ec];
-            pq.add(map[er-i][ec]);
+            min = Math.min(min, map[er-i][ec]);
         }
         for (int i = 0; i < cl; i++) {
             map[sr][ec-i] = map[sr][ec-i-1];
-            pq.add(map[sr][ec-i]);
+            min = Math.min(min, map[sr][ec-i]);
         }
         map[sr][sc+1] = save;
         
-        return pq.poll();
+        return min;
         
     }
     
