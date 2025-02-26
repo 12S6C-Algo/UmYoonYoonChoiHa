@@ -37,14 +37,16 @@ class Solution {
         r1 = q[idx][0]; c1 = q[idx][1];
         r2 = q[idx][2]; c2 = q[idx][3];
         
-        // 초기화
+        // 초기화 및 시작값
         r = r1; c = c1;    
         int origin = map[r][c];
         min = Math.min (min, map[r][c]);
         
         while(true){
+            // 0. nr,nc 변경
             nr = r+dr[d]; nc = c+dc[d];
-            
+
+            // 1. 시작값을 마지막에 채워주기
             if(nr == r1 && nc == c1) {
                 map[r][c] = origin;
                 min = Math.min(min,map[nr][nc]);
@@ -57,8 +59,11 @@ class Solution {
                 continue;
             }
             
+            // 1. map 갱신 
+            // 2. r,c 값 갱신
+            // 3. 최솟값 갱신
             map[r][c] = map[nr][nc];
-            r = nr; c = nc; // 갱신
+            r = nr; c = nc; 
             min = Math.min(min,map[r][c]);
         }
     }
