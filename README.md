@@ -53,7 +53,7 @@
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
 |:-----------------:|:------:|------|:------:|:------:|:------:|:------:|:------:|
-| ~ 25. 02. 26. [수] | BAEKJOON | [숫자야구\_2503](https://www.acmicpc.net/problem/2503) <br> [연구소3\_17142](https://www.acmicpc.net/problem/17142)  | ✅ <br> ✅ | ✅ <br> ✅ | ✅ <br> ✅ | ✅ <br> ✅ | ❌ <br> ❌ | 
+| ~ 25. 02. 26. [수] | BAEKJOON | [숫자야구\_2503](https://www.acmicpc.net/problem/2503) <br> [연구소3\_17142](https://www.acmicpc.net/problem/17142)  | ✅ <br> ✅ | ✅ <br> ✅ | ✅ <br> ✅ | ✅ <br> ✅ | ✅ <br> ✅ | 
 |   25. 02. 26. [수]  | Programmers[LIVE] | [Lv2_행렬테두리회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 |      date       | Site | 문제 | 엄윤준 | 윤병희 | 윤정석 | 최수용 | 하정수 |
